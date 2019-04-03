@@ -121,7 +121,7 @@ export default class SignIn extends AuthPiece {
                 <SectionBody theme={theme}>
                     
                     <FormField theme={theme}>
-                        <InputLabel theme={theme}>{I18n.get('Username')} *</InputLabel>
+                        <InputLabel theme={theme}>Email Address *</InputLabel>
                         <Input
                             autoFocus
                             placeholder={I18n.get('Enter your username')}
