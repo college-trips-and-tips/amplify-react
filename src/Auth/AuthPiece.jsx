@@ -46,7 +46,7 @@ export default class AuthPiece extends Component {
 
     errorMessage(err) {
         if (typeof err === 'string') { return err; }
-        return err.message? err.message : JSON.stringify(err);
+        return err.message? err.message === 'Username/client id combination not found.' ? 'User not found, please create an account" : err.message : JSON.stringify(err);
     }
 
     triggerAuthEvent(event) {

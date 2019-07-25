@@ -124,7 +124,7 @@ export default class SignIn extends AuthPiece {
                         <InputLabel theme={theme}>Email Address *</InputLabel>
                         <Input
                             autoFocus
-                            placeholder={I18n.get('Enter your username')}
+                            placeholder={'Enter your email'}
                             theme={theme}
                             key="username"
                             name="username"
